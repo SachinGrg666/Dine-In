@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color:rgb(98, 145, 145);
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,10 @@ body {
 .container {
     max-width: 400px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: lightgray;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -30,7 +30,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
