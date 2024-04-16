@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2 style="color:aliceblue; margin-top: 10px;">Resturant management system</h2>
+    <h2 style="color:aliceblue; margin-top: 10px;">Welcome to Login Page</h2>
     <div class="container">
         <h2>Login</h2>
         <form action="authenticate.php" method="post">
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholer="Enter your E-mail" name="email" required>
+            <input type="email" id="email" placeholder="Enter your E-mail" name="email" required>
             
             <label for="password">Password:</label>
-            <input type="password" id="password" placeholer="Enter your Password" name="password" required>
+            <input type="password" id="password" placeholder="Enter your Password" name="password" required>
             
             <input type="submit" value="Login">
         </form>
         <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <p><a href="forgot_password.html">Forgot Password?</a></p>
+        <button onclick="window.location.href='home.html'">Back to Home</button>
     </div>
 </body>
 </html>
