@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include 'header.php';  
 ?>
 <div class="page-wrapper">
         <div class="content">
